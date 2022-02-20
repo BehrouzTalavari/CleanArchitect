@@ -1,41 +1,55 @@
 ﻿using Business.Abstract;
+using Core.Utility.Results;
+using DataAccess.Abstract;
 using Entities.Concrete;
-using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace Business.Concrete
 {
     internal class ProductManager : IProductService
     {
-        public Product Add(Product product)
+        private readonly IProductDAL _productDAL;
+
+        public ProductManager(IProductDAL productDAL)
         {
-            throw new NotImplementedException();
+            _productDAL = productDAL;
         }
 
-        public void Delete(Product product)
+        public IDataResult<Product> Add(Product product)
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<Product>(product);
         }
 
-        public Product GetById(int productId)
+        public IResult Delete(Product product)
         {
-            throw new NotImplementedException();
+            _productDAL.Delete(product);
+            return new SuccessResult("Product Is Deleted.");
         }
 
-        public List<Product> GetList()
+        public IDataResult<Product> GetById(int productId)
         {
-            throw new NotImplementedException();
+            var result = _productDAL.GetList().FirstOrDefault(x => x.Id == productId);
+            return new SuccessDataResult<Product>(result);
         }
 
-        public List<Product> GetListByUnitId(int unitId)
+        public IDataResult<List<Product>> GetList()
         {
-            throw new NotImplementedException();
+            var result = _productDAL.GetList().ToList();
+            return new SuccessDataResult<List<Product>>(result);
         }
 
-        public Product Update(Product product)
+        public IDataResult<List<Product>> GetListByUnitId(int unitId)
         {
-            throw new NotImplementedException();
+            var result = _productDAL.GetList().Where(x => x.UnitId == unitId).ToList();
+            return new SuccessDataResult<List<Product>>(result);
+
+        }
+
+        public IResult Update(Product product)
+        {
+            _productDAL.Update(product);
+            return new SuccessResult("Product Is Updated.");
         }
     }
 }

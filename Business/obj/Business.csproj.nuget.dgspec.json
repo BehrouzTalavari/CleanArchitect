@@ -34,6 +34,9 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
+              "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\DataAccess\\DataAccess.csproj"
+              },
               "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\Entities\\Entities.csproj": {
                 "projectPath": "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\Entities\\Entities.csproj"
               }
@@ -111,6 +114,80 @@
           "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Behrouz\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Behrouz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "I:\\Application": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.14, )"
             }
