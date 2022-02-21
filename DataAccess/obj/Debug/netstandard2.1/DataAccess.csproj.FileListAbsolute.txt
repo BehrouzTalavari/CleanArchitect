@@ -1,0 +1,15 @@
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\bin\Debug\netstandard2.1\DataAccess.deps.json
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\bin\Debug\netstandard2.1\DataAccess.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\bin\Debug\netstandard2.1\DataAccess.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\bin\Debug\netstandard2.1\Core.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\bin\Debug\netstandard2.1\Entities.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\bin\Debug\netstandard2.1\Entities.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\bin\Debug\netstandard2.1\Core.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.AssemblyReference.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\obj\Debug\netstandard2.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\obj\Debug\netstandard2.1\DataAccess.AssemblyInfoInputs.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\obj\Debug\netstandard2.1\DataAccess.AssemblyInfo.cs
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.CopyComplete
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\obj\Debug\netstandard2.1\DataAccess.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\DataAccess\obj\Debug\netstandard2.1\DataAccess.pdb

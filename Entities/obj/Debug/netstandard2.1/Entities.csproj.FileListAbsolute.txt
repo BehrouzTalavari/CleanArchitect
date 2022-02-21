@@ -1,0 +1,13 @@
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\bin\Debug\netstandard2.1\Entities.deps.json
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\bin\Debug\netstandard2.1\Entities.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\bin\Debug\netstandard2.1\Entities.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\bin\Debug\netstandard2.1\Core.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\bin\Debug\netstandard2.1\Core.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\obj\Debug\netstandard2.1\Entities.csproj.AssemblyReference.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\obj\Debug\netstandard2.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\obj\Debug\netstandard2.1\Entities.AssemblyInfoInputs.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\obj\Debug\netstandard2.1\Entities.AssemblyInfo.cs
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\obj\Debug\netstandard2.1\Entities.csproj.CoreCompileInputs.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\obj\Debug\netstandard2.1\Entities.csproj.CopyComplete
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\obj\Debug\netstandard2.1\Entities.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Entities\obj\Debug\netstandard2.1\Entities.pdb

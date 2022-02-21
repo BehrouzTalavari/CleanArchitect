@@ -1,0 +1,10 @@
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\bin\Debug\netstandard2.1\Core.deps.json
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\bin\Debug\netstandard2.1\Core.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\bin\Debug\netstandard2.1\Core.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\obj\Debug\netstandard2.1\Core.csproj.AssemblyReference.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\obj\Debug\netstandard2.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\obj\Debug\netstandard2.1\Core.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Core\obj\Debug\netstandard2.1\Core.pdb

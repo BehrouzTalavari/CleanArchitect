@@ -1,0 +1,17 @@
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\Business.deps.json
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\Business.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\Business.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\Core.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\DataAccess.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\Entities.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\DataAccess.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\Entities.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\bin\Debug\netstandard2.1\Core.pdb
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\obj\Debug\netstandard2.1\Business.csproj.AssemblyReference.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\obj\Debug\netstandard2.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\obj\Debug\netstandard2.1\Business.AssemblyInfoInputs.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\obj\Debug\netstandard2.1\Business.AssemblyInfo.cs
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\obj\Debug\netstandard2.1\Business.csproj.CoreCompileInputs.cache
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\obj\Debug\netstandard2.1\Business.csproj.CopyComplete
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\obj\Debug\netstandard2.1\Business.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\Business\obj\Debug\netstandard2.1\Business.pdb

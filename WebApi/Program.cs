@@ -1,4 +1,15 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Business.DependancyResolver.Autofac;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Config to use business Autofac
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+    .ConfigureContainer<ContainerBuilder>(builder =>
+    {
+        builder.RegisterModule(new AutofactBusinessModule());
+    });
 
 // Add services to the container.
 
@@ -8,6 +19,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

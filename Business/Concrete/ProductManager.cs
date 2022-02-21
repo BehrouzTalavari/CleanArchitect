@@ -18,6 +18,7 @@ namespace Business.Concrete
 
         public IDataResult<Product> Add(Product product)
         {
+            _productDAL.Add(product); 
             return new SuccessDataResult<Product>(product);
         }
 
