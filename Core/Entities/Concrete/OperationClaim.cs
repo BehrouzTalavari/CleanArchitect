@@ -1,4 +1,4 @@
-﻿namespace Core.Entities.Concrere
+﻿namespace Core.Entities.Concrete
 {
     public class OperationClaim : IEntity
     {

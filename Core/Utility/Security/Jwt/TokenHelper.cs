@@ -1,5 +1,5 @@
 ﻿using Core.ClaimExtensions;
-using Core.Entities.Concrere;
+using Core.Entities.Concrete;
 using Core.Utility.Security.Encrypt;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
-using System.Text;
 
 namespace Core.Utility.Security.Jwt
 {
@@ -25,7 +24,7 @@ namespace Core.Utility.Security.Jwt
         private DateTime _accessTokenExpiration;
         private TokenOption _tokenOption;
 
-        public AccessToken Create(User user, List<OperationClaim> operationClaims)
+        public AccessToken CreateToken(User user, List<OperationClaim> operationClaims)
         {
             _accessTokenExpiration = DateTime.Now.AddMinutes(_tokenOption.AccessTokenExpiration);
             var key = SecurityKeyHelper.CreateSecurityKey(_tokenOption.SecurityKey);
@@ -60,5 +59,6 @@ namespace Core.Utility.Security.Jwt
 
             return claims;
         }
+
     }
 }
