@@ -1,7 +1,7 @@
 ﻿using Core.Entities.Concrere;
 using System.Collections.Generic;
 
-namespace Core.Utility.Jwt
+namespace Core.Utility.Security.Jwt
 {
     public interface ITokenHelper
     {

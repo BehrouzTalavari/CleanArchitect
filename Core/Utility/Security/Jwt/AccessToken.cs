@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Core.Utility.Jwt
+namespace Core.Utility.Security.Jwt
 {
     public class AccessToken
     {

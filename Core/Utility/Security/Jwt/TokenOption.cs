@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.Utility.Jwt
+namespace Core.Utility.Security.Jwt
 {
     public class TokenOption
     {

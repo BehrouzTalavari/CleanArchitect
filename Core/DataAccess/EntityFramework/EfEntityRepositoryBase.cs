@@ -37,7 +37,7 @@ namespace Core.DataAccess.EntityFramework
                           .FirstOrDefault(predict);
         }
 
-        public IList<TEntity> GetList(Expression<Func<TEntity, bool>> predic = null)
+        public IList<TEntity> GetList(Expression<Func<TEntity, bool>>? predic = null)
         {
             using var context = new TContext();
             return predic == null

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EZXos5YXdjuHgKXgP7OnFJsl2AWF3kzAxBuMz3ReMj5m1/cTGmYuZdGlfsx2rKLQp4+VNMagykJrxnddDp0G9w==",
+  "dgSpecHash": "Zzdye/iDPTXrKI/CqBy7WdZhfv+GGhPqw0DNYxZUTO/4DH2vTw/XIkt3auiunZupLQUDtdxbmMOWM0laV9Ir0g==",
   "success": true,
   "projectFilePath": "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.14\\microsoft.entityframeworkcore.analyzers.5.0.14.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",

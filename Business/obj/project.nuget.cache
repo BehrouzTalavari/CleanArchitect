@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ccsPBsbo1aGDyNFHE78o44OAUNSFGWXPZkf413Tsrh/LNcZNEAd62zHDN/BWnPvpluWtyqQWcfmYNQnnn9wuRQ==",
+  "dgSpecHash": "bqrPoklF9bpNOKVH2YySjJcNAYeHnZ/d/wPVyNDWrJOFtrgN9si/4cPpt3U7adAVb+t9VAs4NbBrMSp+/2e9aw==",
   "success": true,
   "projectFilePath": "D:\\Project\\CleanArchitecture\\BehrouzTalavari\\CleanArchitect\\Business\\Business.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.14\\microsoft.entityframeworkcore.sqlserver.5.0.14.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
