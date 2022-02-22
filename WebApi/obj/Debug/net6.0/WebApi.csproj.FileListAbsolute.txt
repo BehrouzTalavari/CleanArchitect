@@ -20,7 +20,6 @@ D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -71,3 +70,5 @@ D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\obj\Debug\net
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\obj\Debug\net6.0\WebApi.pdb
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll

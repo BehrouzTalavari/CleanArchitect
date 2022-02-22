@@ -4,7 +4,7 @@ using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 
-namespace Core.ClaimExtensions
+namespace Core.Extensions
 {
     public static class ClaimExtension
     {

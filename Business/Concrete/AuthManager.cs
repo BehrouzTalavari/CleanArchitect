@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+
 using Core.Entities.Concrete;
 using Core.Utility.Results;
 using Core.Utility.Security.Hashing;
@@ -36,15 +38,15 @@ namespace Business.Concrete
         public IDataResult<User> Login(UserForLoginDto loginDto)
         {
             var userCheck = _userService.GetByMail(loginDto.Email);
-            if (userCheck == null) return new ErrorDataResult<User>("User Not Found!");
+            if (userCheck == null) return new ErrorDataResult<User>(Messages.UserNotFound);
             if (!HashingHelper.VerifyPasswordHash(password: loginDto.Password, passwordHash: userCheck.PasswordHash, passwordSalt: userCheck.PasswordSalt))
-                return new ErrorDataResult<User>("Password Error!");
-            return new SuccessDataResult<User>(userCheck, "Successful Login.");
+                return new ErrorDataResult<User>(Messages.PasswordError);
+            return new SuccessDataResult<User>(userCheck, Messages.SuccessfulLogin);
         }
         public IResult UserExist(string email)
         {
-            if (_userService.GetByMail(email) == null)
-                return new ErrorResult("User Already Exist!");
+            if (_userService.GetByMail(email) != null)
+                return new ErrorResult(Messages.UserAlreadyExist);
             return new SuccessResult();
         }
         public IDataResult<AccessToken> CreateAccessToken(User user)

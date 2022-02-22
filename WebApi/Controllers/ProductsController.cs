@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
@@ -12,14 +13,16 @@ namespace WebApi.Controllers
         {
             _productService = productService;
         }
+
         [HttpGet("getlist")]
-        public IActionResult GetById()
+        public IActionResult GetList()
         {
             var result = _productService.GetList();
             if (!result.IsSuccess)
                 return BadRequest(result.Message);
             return Ok(result);
         }
+        [Authorize(Roles ="admin")]
         [HttpGet("getbyid")]
         public IActionResult GetById(int productId)
         {

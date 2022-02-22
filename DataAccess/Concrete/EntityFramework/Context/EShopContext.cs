@@ -1,4 +1,4 @@
-﻿using Core.Entities.Concrere;
+﻿using Core.Entities.Concrete;
 using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,7 +8,7 @@ namespace DataAccess.Concrete.EntityFramework.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-T7CKRLM;Database=ShopDb;Trusted_Connection=True");
+            optionsBuilder.UseSqlServer("Server=1DESKTOP-T7CKRLM;Database=ShopDb;Trusted_Connection=True");
 
             base.OnConfiguring(optionsBuilder);
         }

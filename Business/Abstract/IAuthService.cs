@@ -5,7 +5,7 @@ using Entities.Dtos;
 
 namespace Business.Abstract
 {
-    internal interface IAuthService
+    public interface IAuthService
     {
         IDataResult<AccessToken> CreateAccessToken(User user);
         IDataResult<User> Login(UserForLoginDto loginDto);

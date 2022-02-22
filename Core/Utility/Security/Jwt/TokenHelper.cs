@@ -1,4 +1,4 @@
-﻿using Core.ClaimExtensions;
+﻿using Core.Extensions;
 using Core.Entities.Concrete;
 using Core.Utility.Security.Encrypt;
 using Microsoft.Extensions.Configuration;
