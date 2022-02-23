@@ -51,6 +51,7 @@ namespace Business.Concrete
         [PerformanceAspect(1)]
         public IDataResult<List<Product>> GetList()
         {
+            throw new System.Exception("خطا");
             var result = _productDAL.GetList().ToList();
             return new SuccessDataResult<List<Product>>(result);
         }

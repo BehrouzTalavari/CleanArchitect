@@ -1,5 +1,6 @@
 ﻿using Castle.DynamicProxy;
 
+using Core.Aspect.Autofac.Exceptions;
 using Core.Aspect.Autofac.Logging;
 using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 
@@ -21,6 +22,7 @@ namespace Core.Utility.Interceptors
 
             classAttributes.AddRange(methodAttributes);
             classAttributes.Add(new LogAspect(typeof(DatabaseLogger)));
+            classAttributes.Add(new ExceptionLogAspect(typeof(DatabaseLogger)));
 
             return classAttributes.OrderByDescending(x => x.Priority).ToArray();
         }
