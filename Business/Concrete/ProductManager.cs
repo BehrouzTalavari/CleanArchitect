@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 
+using Core.Aspect.Autofac.Caching;
 using Core.Aspect.Autofac.Performance;
 using Core.Aspect.Autofac.Transaction;
 using Core.Utility.Results;
@@ -38,6 +39,7 @@ namespace Business.Concrete
             var result = _productDAL.GetList().FirstOrDefault(x => x.Id == productId);
             return new SuccessDataResult<Product>(result);
         }
+        [CacheAspect(1)]
         [PerformanceAspect(1)]
         public IDataResult<List<Product>> GetList()
         { 

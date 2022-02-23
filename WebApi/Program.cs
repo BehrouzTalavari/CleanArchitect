@@ -2,6 +2,8 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Business.DependancyResolver.Autofac;
 
+using Core.CrossCuttingConcerns.Caching;
+using Core.CrossCuttingConcerns.Caching.Microsoft;
 using Core.Extensions;
 using Core.IOC;
 using Core.Utility.Security.Encrypt;
@@ -68,7 +70,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddMemoryCache();
 builder.Services.AddScoped<Stopwatch>();
+builder.Services.AddSingleton<ICacheManager,MemoryCacheManager>();
 ServiceTool.Create(builder.Services);
 
 var app = builder.Build();
