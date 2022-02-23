@@ -1,5 +1,8 @@
 ﻿using Castle.DynamicProxy;
 
+using Core.Aspect.Autofac.Logging;
+using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
+
 using System;
 using System.Linq;
 using System.Reflection;
@@ -13,12 +16,14 @@ namespace Core.Utility.Interceptors
             var classAttributes = type
                 .GetCustomAttributes<MethodInterceptionBaseAttribute>(true).ToList();
 
-            var methodAttributes=type.GetMethod(method.Name)
+            var methodAttributes = type.GetMethod(method.Name)
                 .GetCustomAttributes<MethodInterceptionBaseAttribute>(true);
 
             classAttributes.AddRange(methodAttributes);
+            classAttributes.Add(new LogAspect(typeof(DatabaseLogger)));
 
             return classAttributes.OrderByDescending(x => x.Priority).ToArray();
         }
+         
     }
 }

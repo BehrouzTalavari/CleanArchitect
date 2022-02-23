@@ -46,4 +46,18 @@ namespace Core.Aspect.Autofac.Caching
             return string.Join(",", result);
         }
     }
+    public class CacheRemoveAspect :MethodInterception
+    {
+        private string _pattern;
+        private ICacheManager _cacheManager;
+        public CacheRemoveAspect(string pattern)
+        {
+            _pattern = pattern;
+            _cacheManager= ServiceTool.Resolve<ICacheManager>();
+        }
+        protected override void OnSuccess(IInvocation invocation)
+        {
+            _cacheManager.RemoveByPattern(_pattern);
+        }
+    }
 }
