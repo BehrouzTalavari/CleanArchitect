@@ -72,3 +72,5 @@ D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\obj\Debug\net
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\obj\Debug\net6.0\ref\WebApi.dll
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+D:\Project\CleanArchitecture\BehrouzTalavari\CleanArchitect\WebApi\bin\Debug\net6.0\Castle.Core.dll

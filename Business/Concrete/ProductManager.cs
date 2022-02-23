@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 
+using Core.Aspect.Autofac.Transaction;
 using Core.Utility.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -48,10 +49,10 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(result);
 
         }
-
+        [TransactionScopeAspect]
         public IResult Update(Product product)
         {
-            _productDAL.Update(product);
+            _productDAL.Update(product); 
             return new SuccessResult(Messages.ProductUpdated);
         }
     }
