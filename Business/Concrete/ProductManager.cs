@@ -1,12 +1,14 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 
+using Core.Aspect.Autofac.Performance;
 using Core.Aspect.Autofac.Transaction;
 using Core.Utility.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace Business.Concrete
 {
@@ -36,9 +38,9 @@ namespace Business.Concrete
             var result = _productDAL.GetList().FirstOrDefault(x => x.Id == productId);
             return new SuccessDataResult<Product>(result);
         }
-
+        [PerformanceAspect(1)]
         public IDataResult<List<Product>> GetList()
-        {
+        { 
             var result = _productDAL.GetList().ToList();
             return new SuccessDataResult<List<Product>>(result);
         }
