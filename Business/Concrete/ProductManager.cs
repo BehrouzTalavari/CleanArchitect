@@ -40,7 +40,7 @@ namespace Business.Concrete
         public IResult Delete(Product product)
         {
             _productDAL.Delete(product);
-            return new SuccessResult(Messages.ProductDeleted);
+            return new SuccessResult(Messages.ProductDeleted, Messages.ProductDeletedId);
         }
         [SecureOperation("admin")]
         [LogAspect(typeof(DatabaseLogger))]
@@ -69,7 +69,7 @@ namespace Business.Concrete
         public IResult Update(Product product)
         {
             _productDAL.Update(product);
-            return new SuccessResult(Messages.ProductUpdated);
+            return new SuccessResult(Messages.ProductUpdated,Messages.ProductUpdatedId);
         }
     }
 }

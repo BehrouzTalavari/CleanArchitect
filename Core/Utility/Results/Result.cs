@@ -6,9 +6,12 @@
 
         public string Message { get; }
 
-        public Result(bool success, string message) : this(success)
+        public string MessageId { get; }
+
+        public Result(bool success, string message, string messageId) : this(success)
         {
             Message = message;
+            MessageId = messageId;
         }
         public Result(bool success)
         {

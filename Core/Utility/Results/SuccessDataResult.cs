@@ -2,17 +2,17 @@
 {
     public class SuccessDataResult<T> : DataResult<T>
     {
-        public SuccessDataResult(T data, string message) : base(data, true, message)
+        public SuccessDataResult(T data, string message, string messageId) : base(data, true, message, messageId)
         {
         }
         public SuccessDataResult(T data) : base(data, true)
         {
         }
-        public SuccessDataResult(string message) : base(default, true, message)
+        public SuccessDataResult(string message, string messageId) : base(default, true, message, messageId)
         {
 
         }
-        public SuccessDataResult():base(default,true)
+        public SuccessDataResult() : base(default, true)
         {
 
         }

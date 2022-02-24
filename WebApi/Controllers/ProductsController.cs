@@ -19,7 +19,7 @@ namespace WebApi.Controllers
         {
             var result = _productService.GetList();
             if (!result.IsSuccess)
-                return BadRequest(result.Message);
+                return BadRequest(result);
             return Ok(result);
         } 
         [HttpGet("getbyid")]
@@ -27,7 +27,7 @@ namespace WebApi.Controllers
         {
             var result = _productService.GetById(productId);
             if (!result.IsSuccess)
-                return BadRequest(result.Message);
+                return BadRequest(result);
             return Ok(result);
         }
         [HttpGet("getlistbyunitid")]
@@ -35,7 +35,7 @@ namespace WebApi.Controllers
         {
             var result = _productService.GetListByUnitId(categoryId);
             if (!result.IsSuccess)
-                return BadRequest(result.Message);
+                return BadRequest(result);
             return Ok(result);
         }
         [HttpPost("add")]
@@ -43,7 +43,7 @@ namespace WebApi.Controllers
         {
             var result = _productService.Add(product);
             if (!result.IsSuccess)
-                return BadRequest(result.Message);
+                return BadRequest(result);
             return Ok(result);
         }
         [HttpPost("update")]
@@ -51,7 +51,7 @@ namespace WebApi.Controllers
         {
             var result = _productService.Update(product);
             if (!result.IsSuccess)
-                return BadRequest(result.Message);
+                return BadRequest(result);
             return Ok(result);
         }
         [HttpDelete("delete")]
@@ -59,7 +59,7 @@ namespace WebApi.Controllers
         {
             var result = _productService.Delete(product);
             if (!result.IsSuccess)
-                return BadRequest(result.Message);
+                return BadRequest(result);
             return Ok(result);
         }
     }

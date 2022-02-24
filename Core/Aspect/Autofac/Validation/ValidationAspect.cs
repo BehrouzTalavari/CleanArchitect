@@ -1,14 +1,13 @@
 ﻿using Castle.DynamicProxy;
 
 using Core.CrossCuttingConcerns.Validation;
+using Core.Messages;
 using Core.Utility.Interceptors;
 
 using FluentValidation;
 
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Core.Aspect.Autofac.Validation
 {
@@ -20,7 +19,7 @@ namespace Core.Aspect.Autofac.Validation
         {
             if (!typeof(IValidator).IsAssignableFrom(validatorType))
             {
-                throw new System.Exception("Wrong Validation Type");
+                throw new System.Exception(CoreMassages.WrongValidationType);
             }
             _validatorType = validatorType;
         }

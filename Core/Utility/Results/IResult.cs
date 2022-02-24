@@ -4,6 +4,6 @@
     {
         bool IsSuccess { get; }
         string Message { get; }
-
+        string MessageId { get; }
     }
 }

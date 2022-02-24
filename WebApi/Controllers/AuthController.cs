@@ -18,14 +18,14 @@ namespace WebApi.Controllers
             var userToLogin = _authService.Login(userForLoginDto);
             if (!userToLogin.IsSuccess)
             {
-                return BadRequest(userToLogin.Message);
+                return BadRequest(userToLogin);
             }
             var result = _authService.CreateAccessToken(userToLogin.Data);
             if (result.IsSuccess)
             {
                 return Ok(result.Data);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
         [HttpPost("Register")]
         public IActionResult Register(UserForRegisterDto userForRegisterDto)
@@ -33,7 +33,7 @@ namespace WebApi.Controllers
             var userToRegister = _authService.UserExist(userForRegisterDto.Email);
             if (!userToRegister.IsSuccess)
             {
-                return BadRequest(userToRegister.Message);
+                return BadRequest(userToRegister);
             }
             var resultRegister = _authService.Register(userForRegisterDto,userForRegisterDto.Password);
             var result = _authService.CreateAccessToken(resultRegister.Data);
@@ -42,7 +42,7 @@ namespace WebApi.Controllers
             {
                 return Ok(result.Data);
             }
-            return BadRequest(result.Message);
+            return BadRequest(result);
         }
     }
 }

@@ -2,11 +2,11 @@
 
 using Core.CrossCuttingConcerns.Logging.Log4Net;
 using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
+using Core.Messages;
 using Core.Utility.Interceptors;
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Core.Aspect.Autofac.Exceptions
 {
@@ -18,7 +18,7 @@ namespace Core.Aspect.Autofac.Exceptions
         {
             if (loggerService.BaseType != typeof(LoggerServiceBase))
             {
-                throw new System.Exception("Wrong Logger Type");
+                throw new System.Exception(CoreMassages.WrongLoggerType);
             }
             _loggerServiceBase = (LoggerServiceBase)Activator.CreateInstance(loggerService);
         }
