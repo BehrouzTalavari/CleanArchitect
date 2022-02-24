@@ -71,6 +71,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddMemoryCache();
+builder.Services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
 builder.Services.AddScoped<Stopwatch>();
 builder.Services.AddSingleton<ICacheManager,MemoryCacheManager>();
 ServiceTool.Create(builder.Services);

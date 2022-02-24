@@ -21,8 +21,7 @@ namespace WebApi.Controllers
             if (!result.IsSuccess)
                 return BadRequest(result.Message);
             return Ok(result);
-        }
-        //[Authorize(Roles ="admin")]
+        } 
         [HttpGet("getbyid")]
         public IActionResult GetById(int productId)
         {

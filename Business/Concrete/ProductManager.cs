@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 
@@ -39,8 +40,9 @@ namespace Business.Concrete
         public IResult Delete(Product product)
         {
             _productDAL.Delete(product);
-            return new SuccessResult(Messages.ProductRemoved);
+            return new SuccessResult(Messages.ProductDeleted);
         }
+        [SecureOperation("admin")]
         [LogAspect(typeof(DatabaseLogger))]
         public IDataResult<Product> GetById(int productId)
         {
